@@ -45,15 +45,26 @@
         margin-bottom: 10px;
         padding: 30px 0;
     }
+    .nav-container{
+        
+        display: block;
+    }
     .navi{
         box-sizing: border-box;
         border: 1px solid;
         position: relative;
         top: 60px;
-        padding: 20px 0;
+        padding: 0 20px;
+        margin: 0 0 10px 0;
+        float: left;
     }
     .ul{
         list-style-type: none;
+        float: left;
+
+    }
+    li{
+        padding: 5px;
     }
     </style>
 
@@ -78,7 +89,7 @@
                         </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
                             <ul class='ul'>
-                                <li> <a href="">Loremp imps</a> </li>
+                                <li> <strong><a href="">Loremp imps</a></strong> </li>
                                 <li> <a href="">Loremp imps</a> </li>
                                 <li> <a href="">Loremp imps</a> </li>
                                 <li> <a href="">Loremp imps</a> </li>
