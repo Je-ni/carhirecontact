@@ -46,7 +46,7 @@
         padding: 30px 0;
     }
     .nav-container{
-        
+    
         display: block;
     }
     .navi{
@@ -54,17 +54,19 @@
         border: 1px solid;
         position: relative;
         top: 60px;
-        padding: 0 20px;
+        padding: 20px 20px;
         margin: 0 0 10px 0;
-        float: left;
+        text-align:left;
+        
     }
     .ul{
         list-style-type: none;
         text-align : left;
-
         
     }
-   
+   li {
+       margin: 6px;
+   }
     </style>
 
 </head>
@@ -81,25 +83,31 @@
                         <div class=''>
                             <ul class='ul'>
                                 <li class=''> <a href="">Car Hire</a> </li>
-                            <hr>
+                                <hr>
                                 <li> <a href="">Truck Hire</a> </li>
                                 <hr>
-                                <li class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                                    Show more</li>
                             </ul>
                         </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
-                        <h4>Contacts</h4>
+                            <div>
+                                <li class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                    Show more</li>
+                            </div>
+
                             <ul class='ul'>
-                            
-                                <li> <a href="">Loremp imps</a> </li><br>
-                                <li> <a href="">Loremp imps</a> </li><br>
-                                <li> <a href="">Loremp imps</a> </li><br>
-                                <li> <a href="">Loremp imps</a> </li><br>
-                                <li> <a href="">Loremp imps</a> </li><br>
+
+                                <li> <strong><a href="">Contacts</a></strong> </li>
+                                <li> <a href="">Loremp imps</a> </li>
+                                <li> <a href="">Loremp imps</a> </li>
+                                <li> <a href="">Loremp imps</a> </li>
+                                <li> <a href="">Loremp imps</a> </li>
+                                <li> <a href="">Loremp imps</a> </li>
+                                <li> <a href="">Loremp imps</a> </li>
                             </ul>
-                             <hr>
+                            <hr>
                             <ul class='ul'>
+                                <li> <a href="">Loremp imps</a> </li>
+                                <li> <a href="">Loremp imps</a> </li>
                                 <li> <a href="">Loremp imps</a> </li>
                             </ul>
                         </div>
@@ -120,7 +128,7 @@
                         </div>
                     </div>
                     <div class='row '>
-                        <div class='col-md-6 imgs' >
+                        <div class='col-sm-6 imgs' >
                             <a href="">                            
                             <img src="https://www.sixt.com/fileadmin/user_upload/ic_anschrift.jpg" alt="" class='img' height='85' width='70' >
                             </a>
@@ -128,7 +136,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
                             <a href="">dkadkg</a>
                         </div>
-                        <div class='col-md-6 imgs'>
+                        <div class='col-sm-6 imgs'>
                             <a href="">                            
                             <img src="https://www.sixt.com/fileadmin/user_upload/ic_anschrift.jpg" alt="" class='img' height='85' width='70' >
                             </a>
@@ -139,7 +147,7 @@
                     </div>
 
                     <div class='row'>
-                        <div class='col-md-6 imgs'>
+                        <div class='col-sm-6 imgs'>
                             <a href="">                            
                             <img src="https://www.sixt.com/fileadmin/user_upload/ic_anschrift.jpg" alt="" class='img' height='85' width='70' >
                             </a>
@@ -147,7 +155,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
                             <a href="">dkadkg</a>
                         </div>
-                        <div class='col-md-6 imgs'>
+                        <div class='col-sm-6 imgs'>
                             <a href="">                            
                             <img src="https://www.sixt.com/fileadmin/user_upload/ic_anschrift.jpg" alt="" class='img' height='85' width='70' >
                             </a>
