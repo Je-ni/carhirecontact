@@ -54,7 +54,7 @@
         border: 1px solid;
         position: relative;
         top: 60px;
-        padding: 20px 20px;
+        padding: 20px 0px;
         margin: 0 0 10px 0;
         text-align:left;
         
@@ -62,11 +62,21 @@
     .ul{
         list-style-type: none;
         text-align : left;
-        
+        padding: 1px, 0;  
     }
    li {
-       margin: 6px;
+       display: list-item;
+       margin: 6px 0;
    }
+   .hire{
+       padding: 0 0 0 0;
+       margin: 1px 1px;
+   }
+   .hr{
+       margin: 8px auto;
+       padding-right: 7px;
+   }
+   
     </style>
 
 </head>
@@ -78,24 +88,20 @@
     <div class=''>
         <section class='container'>
             <div class='row'>
-                <div class='col-md-4 nav-container'>
+                <div class='col-sm-4 nav-container'>
                     <nav class='navi'>
                         <div class=''>
                             <ul class='ul'>
-                                <li class=''> <a href="">Car Hire</a> </li>
-                                <hr>
-                                <li> <a href="">Truck Hire</a> </li>
-                                <hr>
+                                <li class='hire'> <a href="">Car Hire</a> </li>
+                                <hr class='hr'>
+                                <li class='hire'> <a href="">Truck Hire</a> </li>
+                                <hr class='hr'>
+                                <li class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                    Show more</li>  
                             </ul>
                         </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
-                            <div>
-                                <li class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                                    Show more</li>
-                            </div>
-
                             <ul class='ul'>
-
                                 <li> <strong><a href="">Contacts</a></strong> </li>
                                 <li> <a href="">Loremp imps</a> </li>
                                 <li> <a href="">Loremp imps</a> </li>
@@ -103,17 +109,19 @@
                                 <li> <a href="">Loremp imps</a> </li>
                                 <li> <a href="">Loremp imps</a> </li>
                                 <li> <a href="">Loremp imps</a> </li>
-                            </ul>
-                            <hr>
+                                <hr class='hr'>
+                                </ul>
+                                
                             <ul class='ul'>
                                 <li> <a href="">Loremp imps</a> </li>
                                 <li> <a href="">Loremp imps</a> </li>
                                 <li> <a href="">Loremp imps</a> </li>
                             </ul>
                         </div>
+                     
                     </nav>
                 </div>
-                <div class='col-md-8'>
+                <div class='col-sm-8'>
                     <div class='contact'>
                         <h2 style="color:#FF7D19;">Contact Us</h2>
                     </div>
