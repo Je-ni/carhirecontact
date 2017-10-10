@@ -54,7 +54,11 @@
     }
     .ul{
         list-style-type: none;
+        text-align : left;
+
+        
     }
+   
     </style>
 
 </head>
@@ -71,25 +75,25 @@
                         <div class=''>
                             <ul class='ul'>
                                 <li class=''> <a href="">Car Hire</a> </li>
+                            <hr>
                                 <li> <a href="">Truck Hire</a> </li>
+                                <hr>
                                 <li class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                                     Show more</li>
                             </ul>
                         </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
+                        <h4>Contacts</h4>
                             <ul class='ul'>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
+                            
+                                <li> <a href="">Loremp imps</a> </li><br>
+                                <li> <a href="">Loremp imps</a> </li><br>
+                                <li> <a href="">Loremp imps</a> </li><br>
+                                <li> <a href="">Loremp imps</a> </li><br>
+                                <li> <a href="">Loremp imps</a> </li><br>
                             </ul>
-                        
+                             <hr>
                             <ul class='ul'>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
                                 <li> <a href="">Loremp imps</a> </li>
                             </ul>
                         </div>
@@ -97,7 +101,7 @@
                 </div>
                 <div class='col-md-8'>
                     <div class='contact'>
-                        <h2>Contact Us</h2>
+                        <h2 style="color:#FF7D19;">Contact Us</h2>
                     </div>
                     <div style='padding: 2% 0;'>
                         <div class='img-1'>
@@ -105,7 +109,7 @@
                             'img img-responsive'>
                         </div>
                         <div>
-                            <p>We are here for you</p>
+                            <p style="font-size:17px; color:#FF7D19"> <strong>We are here for you</strong></p>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
                         </div>
                     </div>
