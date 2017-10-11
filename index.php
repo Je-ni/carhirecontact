@@ -51,18 +51,22 @@
     }
     .navi{
         box-sizing: border-box;
-        border: 1px solid #555151;
+        border: 1px solid #B0A8A8;
         position: relative;
         top: 60px;
-        padding: 20px 0px;
+        padding:0;
+        overflow: hidden;
         margin: 0 0 10px 0;
         text-align:left;
         
     }
-    .ul{
+    
+    
+    ul{
         list-style-type: none;
         text-align : left;
         padding: 1px, 0;
+        margin: auto;
         
 
     }
@@ -104,6 +108,24 @@
        padding-right: 7px;
        
    }
+   .subnavi1{
+       border: none;
+       padding: 0px 10px 0 10px;
+       margin: auto;
+   }
+   .subnavi1 .ul li {
+       border: none;
+    border-bottom: 1px solid #FF7D19;
+    padding: 10px 0;
+    margin: 0;
+
+   }
+   .subnavi2{
+    border: none;
+    border-bottom: 1px solid #B0A8A8;
+    padding: 10px 0 10px 0;
+    margin: 0;
+   }
    a{
        color: #000000;
    }
@@ -111,7 +133,7 @@
 
 </head>
 <body style='background-color: #DCDADA;'>
-    <header class='jumbotron'>
+    <header class=''>
         <?php include('header.php') ?>
     </header>
     <main style=''>
@@ -120,29 +142,27 @@
             <div class='row'>
                 <div class='col-sm-4 nav-container'>
                     <nav class='navi'>
-                        <div class=''>
+                        <div class='subnavi1 navbar'>
                             <ul class='ul'>
-                                <li class='hire' > <a href="" style="color:#FF7D19;">Car Hire</a> </li>
-                                <hr class='hr'>
-                                <li class='hire'> <a href="" style="color:#FF7D19;">Truck Hire</a> </li>
-                                <hr class='hr'>
+                                <li> <a href="" style="color:#FF7D19;">Car Hire</a> </li>
+                                <li> <a href="" style="color:#FF7D19;">Truck Hire</a> </li>
                                 <li class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                                     Show more</li>  
                             </ul>
                         </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
-                            <div></div>
-                            <ul class='ul'>
-                                <li> <strong><a href="">Contacts</a></strong> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <hr class='hr'>
+                            <div class='subnavi2'>
+                                <ul class='ul'>
+                                    <li> <strong><a href="">Contacts</a></strong> </li>
+                                    <li> <a href="">Loremp imps</a> </li>
+                                    <li> <a href="">Loremp imps</a> </li>
+                                    <li> <a href="">Loremp imps</a> </li>
+                                    <li> <a href="">Loremp imps</a> </li>
+                                    <li> <a href="">Loremp imps</a> </li>
+                                    <li> <a href="">Loremp imps</a> </li>
+                                    
                                 </ul>
-                                
+                            </div>    
                             <ul class='ul'>
                                 <li> <a href="">Loremp imps</a> </li>
                                 <li> <a href="">Loremp imps</a> </li>
@@ -158,8 +178,8 @@
                     </div>
                     <div style='padding: 2% 0;'>
                         <div class='img-1'>
-                            <img src="https://www.sixt.com/fileadmin/files/corporate/sx-kontakt.jpg" alt="" class=
-                            'img img-responsive'>
+                            <img src="group.png" alt="" class=
+                            'img img-responsive' height= '250' width='631'>
                         </div>
                         <div>
                             <p style="font-size:17px; color:#FF7D19"> <strong>We are here for you</strong></p>
