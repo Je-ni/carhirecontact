@@ -22,12 +22,7 @@
     }
     form {
       display: block;
-
-      /*width: 65%;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 3px;
-    padding-right: 0;*/
+      width: 65%;
     }
     #formDiv {
     box-shadow: 8px 8px 8px 8px #888888;
@@ -63,6 +58,9 @@
       text-align: center;
       color:#fff;
     }
+    .file{
+      border:1px solid #000;
+    }
   </style>
   </head>
   <body>
@@ -97,15 +95,23 @@
           <label>Message*:</label>
           <textarea name="" rows="4" cols="50"></textarea><br>
           <label>Attach documents:</label>
-          <input type="file" name="image" size="60" class="input-lg" accept="image/*"><br>
+          <div class="file">
+          <input type="file" name="image" size="60">
+          </div><br>
           File extensions allowed:<strong>pdf,jpg,tif</strong><br>
           <a href="#">Add additional file</a><br>
           * These fields are mandatory.
         </fieldset>
       </form>
-      <div class="btn-out-area">
+      
+      <div class="row">
+        <div class="col-md-6"></div>
+        <div class="col-md-6">
+          <div class="btn-out-area">
         <div class="btn-in-area">
           <h3>Send</h3>
+        </div>
+      </div>
         </div>
       </div>
 </div>
