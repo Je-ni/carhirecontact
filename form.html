@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+    body {
+      background-color: #fff;
+    }
+    form {
+      display: block;
+
+      /*width: 65%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    padding-right: 0;*/
+    }
+    #formDiv {
+    box-shadow: 8px 8px 8px 8px #888888;
+    margin-top:5%;
+      margin-bottom: 3%;
+}
+    textarea {
+      border-radius: 5px;
+      background-color: #fff;
+      }
+
+    fieldset {
+      padding-top: 20px;
+      padding-right: 5px;
+      padding-bottom: 20px;
+      padding-left: 5px;
+      background-color:#fff;
+
+    }
+    .text {
+      text-align: left;
+    }
+    .texts {
+      font-size: 20px;
+    }
+    .btn-out-area{
+      border:3px solid #fff;
+      background-color: #d3d3d3;
+    }
+    .btn-in-area{
+      background-color: orange;
+      border: 1px solid orange;
+      text-align: center;
+      color:#fff;
+    }
+  </style>
+  </head>
+  <body>
+
+    <div class="container">
+    <div class="col-md-6"></div>
+    <div class="col-md-6" id="formDiv">
+      <form>
+      <fieldset>
+        <label>Business unit*:</label>
+          <select>
+          <option>...</option>
+          <option>Car rental</option>
+          <option>Leasing</option>
+          </select><br>
+          <label>Title*:</label>
+          <select>
+          <option>...</option>
+          <option>Mr.</option>
+          <option>Ms</option>
+          </select><br>
+          <label>First name*:</label>
+          <input type="text" name=""><br>
+          <label>Last name*:</label>
+          <input type="text" name=""><br>
+          <label>Company:</label>
+          <input type="text" name=""><br>
+          <label>E-Mail*:</label>
+          <input type="text" name=""><br>
+          <label>Phone no*:</label>
+          <input type="text" name=""><br>
+          <label>Message*:</label>
+          <textarea name="" rows="4" cols="50"></textarea><br>
+          <label>Attach documents:</label>
+          <input type="file" name="image" size="60" class="input-lg" accept="image/*"><br>
+          File extensions allowed:<strong>pdf,jpg,tif</strong><br>
+          <a href="#">Add additional file</a><br>
+          * These fields are mandatory.
+        </fieldset>
+      </form>
+      <div class="btn-out-area">
+        <div class="btn-in-area">
+          <h3>Send</h3>
+        </div>
+      </div>
+</div>
+
+    </div>
+    
+  </body>
+</html>
