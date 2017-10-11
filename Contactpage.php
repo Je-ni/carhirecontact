@@ -20,7 +20,7 @@
     <link rel="stylesheet" type="text/css" href="contactpage.css">
 
 </head>
-<body style='background-color: #DCDADA;'>
+<body>
     <header class=''>
         <?php include('header1.php') ?>
     </header>
@@ -107,7 +107,7 @@
                             </a>
                             <h4>Contact Form</h4>
                             <p>Questions, suggestions, problems, praise or even blame? We are looking forward to hearing from you.</p>
-                            <a href="form.php">To the form</a>
+                            <a href="contactform.php">To the form</a>
                         </div>
                     </div>
 

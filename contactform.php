@@ -21,7 +21,7 @@
     <![endif]-->
 
   </head>
-  <body style='background-color: #DCDADA;'>
+  <body>
       <header class=''>
           <?php include('header1.php') ?>
       </header>
