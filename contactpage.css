@@ -116,3 +116,53 @@
 .expand.collapsed:after {
     content: " Show more";
 }
+
+/*======= Contact Form =======*/
+    form {
+      display: block;
+    }
+    #formDiv {
+    box-shadow: 8px 8px 8px 8px #888888;
+    margin-top:5%;
+      margin-bottom: 3%;
+}
+    textarea {
+      border-radius: 5px;
+      background-color: #fff;
+      }
+
+    fieldset {
+      padding-top: 20px;
+      padding-right: 5px;
+      padding-bottom: 20px;
+      padding-left: 5px;
+      background-color:#fff;
+
+    }
+    .btn-out-area{
+      border:3px solid #fff;
+      background-color: #d3d3d3;
+    }
+    .btn-in-area{
+      background-color: orange;
+      border: 1px solid orange;
+      text-align: center;
+      color:#fff;
+    }
+    textarea {
+      border-radius: 0 0 0 0;
+    }
+    .wrapper{
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      margin-bottom: 8px;
+    }
+    .file-wrapper {
+      display: inline-block;
+      
+    }
+    .file {
+      border:1px solid #000;
+      padding:5px;
+    }
