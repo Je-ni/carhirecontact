@@ -119,9 +119,11 @@
     form {
       display: block;
       text-align: left;
+      padding:20px;
+     
     }
     #formDiv {
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     margin-top:5%;
       margin-bottom: 3%;
 }
@@ -136,6 +138,7 @@
       padding-bottom: 20px;
       padding-left: 5px;
       background-color:#fff;
+      
 
     }
     .btn-out-area{
@@ -209,4 +212,5 @@
     padding-left: 0 !important;
     margin-bottom: 0 !important;
     text-align: right !important;
+    margin-right:20px;
   }
