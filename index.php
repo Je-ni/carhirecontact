@@ -126,19 +126,16 @@
                         <div class="collapse navbar-collapse" id="myNavbar">
                             <ul class='ul'>
                                 <li> <strong><a href="">Contacts</a></strong> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
+                                <li> <a href="">Career with Car.Africa</a> </li>
+                                <li> <a href="">Car.Africa partners</a> </li>
+                                <li> <a href="">Privacy</a> </li>
+                                <li> <a href="">Terms and Conditions</a> </li>
                                 <hr class='hr'>
                                 </ul>
                                 
                             <ul class='ul'>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
-                                <li> <a href="">Loremp imps</a> </li>
+                                <li> <a href="">Help</a> </li>
+                                <li> <a href="">FAQ</a> </li>
                             </ul>
                         </div>
                      
@@ -155,7 +152,7 @@
                         </div>
                         <div>
                             <p style="font-size:17px; color:#000"> <strong>We are here for you</strong></p>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                            <p>Do you have questions, problems or suggestions? Here you will find all addresses, hotlines and contact forms.</p>
                         </div>
                     </div>
                     <div class='row '>
@@ -163,36 +160,36 @@
                             <a href="">                            
                             <img src="https://www.sixt.com/fileadmin/user_upload/ic_anschrift.jpg" alt="" class='img' height='85' width='70' >
                             </a>
-                            <h4>write-up header</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-                            <a href="" style="color: #0077BC">dkadkg</a>
+                            <h4>Address, Telephone</h4>
+                            <p>By telephone or by post, you will find the contact details of our business areas.</p>
+                            <a href="" style="color: #0077BC">All details</a>
                         </div>
                         <div class='col-sm-6 imgs'>
                             <a href="">                            
-                            <img src="https://www.sixt.com/fileadmin/user_upload/ic_anschrift.jpg" alt="" class='img' height='85' width='70' >
+                            <img src="https://www.sixt.com/fileadmin/user_upload/ic_kontakt.jpg" alt="" class='img' height='85' width='70' >
                             </a>
-                            <h4>write-up header</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-                            <a href="" style="color: #0077BC">dkadkg</a>
+                            <h4>Contact Form</h4>
+                            <p>Questions, suggestions, problems, praise or even blame? We are looking forward to hearing from you.</p>
+                            <a href="" style="color: #0077BC">To the form</a>
                         </div>
                     </div>
 
                     <div class='row'>
                         <div class='col-sm-6 imgs'>
                             <a href="">                            
-                            <img src="https://www.sixt.com/fileadmin/user_upload/ic_anschrift.jpg" alt="" class='img' height='85' width='70' >
+                            <img src="https://www.sixt.com/fileadmin/user_upload/ic_facebook.jpg" alt="" class='img' height='85' width='70' >
                             </a>
-                            <h4>write-up header</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-                            <a href="" style="color: #0077BC">dkadkg</a>
+                            <h4>Car Hire on Facebook</h4>
+                            <p>Send us a Facebook message. On weekdays, we are there for you from 8am to 5pm.</p>
+                            <a href="" style="color: #0077BC">To Car Hire on Facebook</a>
                         </div>
                         <div class='col-sm-6 imgs'>
                             <a href="">                            
-                            <img src="https://www.sixt.com/fileadmin/user_upload/ic_anschrift.jpg" alt="" class='img' height='85' width='70' >
+                            <img src="https://www.sixt.com/fileadmin/user_upload/ic_twitter.jpg" alt="" class='img' height='85' width='70' >
                             </a>
-                            <h4>write-up header</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-                            <a href="" style="color: #0077BC">dkadkg</a>
+                            <h4>Car Hire on Twitter</h4>
+                            <p>Contact @carhire.africa on Twitter. On weekdays, we are there for you from 8am to 5pm.</p>
+                            <a href="" style="color: #0077BC">To @carhire.africa on Twitter</a>
                         </div>
                     </div>
 
