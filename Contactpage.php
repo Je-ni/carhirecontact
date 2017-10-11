@@ -99,7 +99,7 @@
                             </a>
                             <h4>Address, Telephone</h4>
                             <p>By telephone or by post, you will find the contact details of our business areas.</p>
-                            <a href="" style="color: #0077BC">All details</a>
+                            <a href="">All details</a>
                         </div>
                         <div class='col-sm-6 imgs'>
                             <a href="form.php">                            
@@ -107,7 +107,7 @@
                             </a>
                             <h4>Contact Form</h4>
                             <p>Questions, suggestions, problems, praise or even blame? We are looking forward to hearing from you.</p>
-                            <a href="form.php" style="color: #0077BC">To the form</a>
+                            <a href="form.php">To the form</a>
                         </div>
                     </div>
 
@@ -118,7 +118,7 @@
                             </a>
                             <h4>Car Hire on Facebook</h4>
                             <p>Send us a Facebook message. On weekdays, we are there for you from 8am to 5pm.</p>
-                            <a href="" style="color: #0077BC">To Car Hire on Facebook</a>
+                            <a href="">To Car Hire on Facebook</a>
                         </div>
                         <div class='col-sm-6 imgs'>
                             <a href="">                            
@@ -126,7 +126,7 @@
                             </a>
                             <h4>Car Hire on Twitter</h4>
                             <p>Contact @carhire.africa on Twitter. On weekdays, we are there for you from 8am to 5pm.</p>
-                            <a href="" style="color: #0077BC">To @carhire.africa on Twitter</a>
+                            <a href="">To @carhire.africa on Twitter</a>
                         </div>
                     </div>
 

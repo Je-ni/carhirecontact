@@ -167,8 +167,10 @@
           <label>Attach documents:</label>
           <input type="file" name="image" class="file">
           </p><br>
-          File extensions allowed:<strong>pdf,jpg,tif</strong><br>
+          File extensions allowed: <strong>pdf,jpg,tif</strong><br><br>
           <a href="#">Add additional file</a><br>
+          <br>
+          <br>
           * These fields are mandatory.
         </fieldset>
       </form>
@@ -177,7 +179,7 @@
 
       <div class="row">
         <!-- <div class="col-md-6"></div> -->
-        <div class="col-sm-8">
+        <div class="col-md-6-6">
           <div class="btn-out-area">
         <div class="btn-in-area">
           <h3><strong>Send</strong></h3>
