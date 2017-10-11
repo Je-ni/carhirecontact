@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contacts</title>
+    <title>CarHire|Contact Us</title>
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     </script>
@@ -48,7 +48,7 @@
         padding: 30px 0;
     }
     .nav-container{
-    
+        z-index: 0;
         display: block;
     }
     .navi{
@@ -58,7 +58,7 @@
         top: 60px;
         padding:0;
         overflow: hidden;
-        margin: 0 0 10px 0;
+        margin: 0 0 15px 0;
         text-align:left;
         
     }
@@ -69,6 +69,7 @@
         text-align : left;
         padding: 1px, 0;
         margin: auto;
+        -webkit-padding-start: 7px;
         
 
     }
@@ -77,12 +78,7 @@
        margin: 6px 0;
        
    }
-   .hire{
-       padding: 0 0 0 0;
-       margin: 1px 1px;
-       color:#B0A8A8
-       
-   }
+   
    .navbar.navbar-inverse.nav2{
             background-color:#fff;
             height:80px;
@@ -105,22 +101,21 @@
             
             background-color: #fff;
         }
-   .hr{
-       margin: 8px auto;
-       padding-right: 7px;
-       
-   }
+   
    .subnavi1{
        border: none;
-       padding: 0px 10px 0 10px;
+       padding: 0px 15px 0 15px;
        margin: auto;
    }
    .subnavi1 .ul li {
        border: none;
-    border-bottom: 1px solid #FF7D19;
+    border-bottom: 1px solid #436BC8;
     padding: 10px 0;
     margin: 0;
 
+   }
+   .navbar-toggle {
+    padding: 9px 0px;
    }
    .subnavi2{
     border: none;
@@ -131,6 +126,14 @@
    a{
        color: #000000;
    }
+   .expand:after {
+    content: " Show less";
+}
+    
+/* Icon when the collapsible content is hidden */
+.expand.collapsed:after {
+    content: " Show more";
+}
     </style>
 
 </head>
@@ -145,14 +148,16 @@
                 <div class='col-sm-4 nav-container'>
                     <nav class='navi'>
                         <div class='subnavi1 navbar'>
-                            <ul class='ul'>
-                                <li> <a href="" style="color:#FF7D19;">Car Hire</a> </li>
-                                <li> <a href="" style="color:#FF7D19;">Truck Hire</a> </li>
-                                <li class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                                    Show more</li>  
-                            </ul>
+                            
+                                <ul class='ul'>
+                                    <li> <a href="" style="color:#436BC8;">Car Hire</a> </li>                                           
+                                    <li> <a href="" style="color:#436BC8;">Truck Hire</a> </li>
+                                    <li style='border-bottom: none; float:left; padding: 0;'>  <a href="#myNavbar1" class=" expand navbar-toggle collapsed" data-toggle="collapse"
+                                     aria-expanded="false"><span class='caret'></span></a></li>
+                                          
+                                </ul>
                         </div>
-                        <div class="collapse navbar-collapse" id="myNavbar">
+                        <div class="collapse navbar-collapse" id="myNavbar1">
                             <div class='subnavi2'>
                                 <ul class='ul'>
                                     <li> <strong><a href="">Contacts</a></strong> </li>
@@ -160,7 +165,7 @@
                                     <li> <a href="">Car.Africa partners</a> </li>
                                     <li> <a href="">Privacy</a> </li>
                                     <li> <a href="">Terms and Conditions</a> </li>
-                                </ul>
+                                </ul> 
                             </div>    
                             <ul class='ul'>
                                 <li> <a href="">Help</a> </li>
