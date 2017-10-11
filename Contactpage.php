@@ -102,12 +102,12 @@
                             <a href="" style="color: #0077BC">All details</a>
                         </div>
                         <div class='col-sm-6 imgs'>
-                            <a href="">                            
+                            <a href="form.php">                            
                             <img src="https://www.sixt.com/fileadmin/user_upload/ic_kontakt.jpg" alt="" class='img' height='85' width='70' >
                             </a>
                             <h4>Contact Form</h4>
                             <p>Questions, suggestions, problems, praise or even blame? We are looking forward to hearing from you.</p>
-                            <a href="" style="color: #0077BC">To the form</a>
+                            <a href="form.php" style="color: #0077BC">To the form</a>
                         </div>
                     </div>
 
