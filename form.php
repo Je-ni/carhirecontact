@@ -23,8 +23,8 @@
       <header class=''>
           <?php include('header1.php') ?>
       </header>
-      <main style=''>
-      <div class=''>
+      <main >
+      <div class='container'>
 
       <div class='row'>
           <div class='col-sm-4 nav-container'>
@@ -171,9 +171,9 @@
       </form>
             
             </div>
-</div>
-<div class="row">
-        <div class="col-sm-4"></div>
+
+      <div class="row">
+        <!-- <div class="col-md-6"></div> -->
         <div class="col-sm-8">
           <div class="btn-out-area">
         <div class="btn-in-area">

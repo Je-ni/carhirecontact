@@ -3,12 +3,7 @@
         /*margin-top: 20px;
         margin-bottom: 50px;*/
     }
-    .img{
-        display:block;
-        max-width: 100%;
-        height: auto;
-        
-    }
+    
     main .container{
         background-color: white;
         max-width:1020px;
@@ -59,6 +54,9 @@
        display: list-item;
        margin: 6px 0;
        
+   }
+   .offers ul li a{
+       color:#007BCA;
    }
    
    .navbar.navbar-inverse.nav2{
