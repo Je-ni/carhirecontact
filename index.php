@@ -77,6 +77,28 @@
        color:#B0A8A8
        
    }
+   .navbar.navbar-inverse.nav2{
+            background-color:#fff;
+            height:80px;
+            margin-top: -20px;
+            border-color: #fff;
+        }
+
+    .center-block{
+            text-align: center;
+            padding-top: 13px;
+            color: #fff;
+            background-color: #000;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #icon{
+            margin-left: 20px;
+        }
+    .navbar.navbar-default{
+            
+            background-color: #fff;
+        }
    .hr{
        margin: 8px auto;
        padding-right: 7px;
@@ -85,7 +107,6 @@
    a{
        color: #000000;
    }
-   
     </style>
 
 </head>
