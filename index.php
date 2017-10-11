@@ -18,6 +18,8 @@
     <style>
     body {
         box-sizing: border-box;
+        /*margin-top: 20px;
+        margin-bottom: 50px;*/
     }
     .img{
         display:block;
@@ -144,7 +146,7 @@
                 </div>
                 <div class='col-sm-8'>
                     <div class='contact'>
-                        <h2 style="color:#FF7D19;">Contact Us</h2>
+                        <h2 style="color:#000;">Your Car Hire Is At Your Disposal</h2>
                     </div>
                     <div style='padding: 2% 0;'>
                         <div class='img-1'>
@@ -152,7 +154,7 @@
                             'img img-responsive'>
                         </div>
                         <div>
-                            <p style="font-size:17px; color:#FF7D19"> <strong>We are here for you</strong></p>
+                            <p style="font-size:17px; color:#000"> <strong>We are here for you</strong></p>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
                         </div>
                     </div>
@@ -163,7 +165,7 @@
                             </a>
                             <h4>write-up header</h4>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-                            <a href="">dkadkg</a>
+                            <a href="" style="color: #0077BC">dkadkg</a>
                         </div>
                         <div class='col-sm-6 imgs'>
                             <a href="">                            
@@ -171,7 +173,7 @@
                             </a>
                             <h4>write-up header</h4>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-                            <a href="">dkadkg</a>
+                            <a href="" style="color: #0077BC">dkadkg</a>
                         </div>
                     </div>
 
@@ -182,7 +184,7 @@
                             </a>
                             <h4>write-up header</h4>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-                            <a href="">dkadkg</a>
+                            <a href="" style="color: #0077BC">dkadkg</a>
                         </div>
                         <div class='col-sm-6 imgs'>
                             <a href="">                            
@@ -190,7 +192,7 @@
                             </a>
                             <h4>write-up header</h4>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-                            <a href="">dkadkg</a>
+                            <a href="" style="color: #0077BC">dkadkg</a>
                         </div>
                     </div>
 
