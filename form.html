@@ -139,12 +139,7 @@
 }
     form {
       display: block;
-
-      /*width: 65%;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 3px;
-    padding-right: 0;*/
+      width: 65%;
     }
     #formDiv {
     box-shadow: 8px 8px 8px 8px #888888;
@@ -183,7 +178,9 @@
     .offers a {
       padding: 2px ;
       margin: 3px;
-      color:#007BCA;
+      color:#007BCA;}
+    .file{
+      border:1px solid #000;
     }
   </style>
   </head>
@@ -193,7 +190,7 @@
       </header>
       <main style=''>
       <div class=''>
-    <div class="container">
+
       <div class='row'>
           <div class='col-sm-4 nav-container'>
               <nav class='navi'>
@@ -286,46 +283,69 @@
               </div>
               <div id="formDiv">
                 <form>
-                <fieldset>
-                <label>Business unit*:</label>
-                <select>
-                <option>...</option>
-                <option>Car rental</option>
-                <option>Leasing</option>
-                </select><br>
-                <label>Title*:</label>
-                <select>
-                <option>...</option>
-                <option>Mr.</option>
-                <option>Ms</option>
-                </select><br>
-                <label>First name*:</label>
-                <input type="text" name=""><br>
-                <label>Last name*:</label>
-                <input type="text" name=""><br>
-                <label>Company:</label>
-                <input type="text" name=""><br>
-                <label>E-Mail*:</label>
-                <input type="text" name=""><br>
-                <label>Phone no*:</label>
-                <input type="text" name=""><br>
-                <label>Message*:</label>
-                <textarea name="" rows="4" cols="50"></textarea><br>
-                <label>Attach documents:</label>
-                <input type="file" name="image" size="60" class="input-lg" accept="image/*"><br>
-                File extensions allowed:<strong>pdf,jpg,tif</strong><br>
-                <a href="#">Add additional file</a><br>
-                * These fields are mandatory.
-              </fieldset>
-            </form>
+      <fieldset>
+      <p class="wrapper">
+        <label>Business unit*:</label>
+          <select>
+          <option>...</option>
+          <option>Car rental</option>
+          <option>Leasing</option>
+          </select>
+          </p><br>
+          <p class="wrapper">
+          <label>Title*:</label>
+          <select>
+          <option>...</option>
+          <option>Mr.</option>
+          <option>Ms</option>
+          </select>
+          </p><br>
+          <p class="wrapper">
+          <label>First name*:</label>
+          <input type="text" name="">
+          </p><br>
+          <p class="wrapper">
+          <label>Last name*:</label>
+          <input type="text" name="">
+          </p><br>
+          <p class="wrapper">
+          <label>Company:</label>
+          <input type="text" name="">
+          </p><br>
+          <p class="wrapper">
+          <label>E-Mail*:</label>
+          <input type="text" name="">
+          </p><br>
+          <p class="wrapper">
+          <label>Phone no*:</label>
+          <input type="text" name="">
+          </p><br>
+          <p class="wrapper">
+          <label>Message*:</label>
+          <textarea name="" rows="4" cols="50"></textarea>
+          </p><br>
+          <p class="file-wrapper">
+          <label>Attach documents:</label>
+          <input type="file" name="image" class="file">
+          </p><br>
+          File extensions allowed:<strong>pdf,jpg,tif</strong><br>
+          <a href="#">Add additional file</a><br>
+          * These fields are mandatory.
+        </fieldset>
+      </form>
             
-            <div class="btn-out-area">
-             <div class="btn-in-area">
-               <h3>Send</h3>
-              </div>
-            </div>
             </div>
 </div>
+<div class="row">
+        <!-- <div class="col-md-6"></div> -->
+        <div class="col-sm-8">
+          <div class="btn-out-area">
+        <div class="btn-in-area">
+          <h3><strong>Send</strong></h3>
+        </div>
+      </div>
+        </div>
+      </div>
 </div>
     </div>
   </div>
