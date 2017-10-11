@@ -1,7 +1,7 @@
 <footer>
   <!--<span style="position:relative; top: 25%; margin:auto;">  &copy; <?php //echo date("Y")?>. A PRODUCT OF SWISEL ENTERPRISE. ||version 1.0 </span>-->
   <nav class="navbar navbar-default">
-  <div class="container">
+  <div class="container"  style='padding:10px; border-top:none'>
     <div class="row">
       <div class="col-sm-3 footer1" ><img class="center image1" src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" height="50" width="140"><ul><li>About</li><li>Locations</li><li>Contact Us</li><li>Privacy Policy</li></ul>
       </div>
