@@ -22,7 +22,7 @@
 </head>
 <body style='background-color: #DCDADA;'>
     <header class=''>
-        <?php include('header.php') ?>
+        <?php include('header1.php') ?>
     </header>
     <main style=''>
     <div class=''>
@@ -136,7 +136,7 @@
     </div>
     </main>
     <footer>
-        <?php include('footer.php') ?>
+        <?php include('footer1.php') ?>
     </footer>
     
 </body>
