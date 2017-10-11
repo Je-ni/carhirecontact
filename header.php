@@ -38,7 +38,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
        <a class="navbar-brand image" href="#"><img class="center image" src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" height="50" width="158"></a>
       <ul class="nav navbar-nav navbar-right" id="center">
-        <li><a href="#" class="center rent">Rent a car</a></li>
+        <li><a href="#" class="center rent">Find a car</a></li>
       <li><a href="#" class="center line ">|</a></li>
       <li><a href="#" class="center new">New cars</a></li>
       
