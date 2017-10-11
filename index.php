@@ -72,8 +72,6 @@
        padding: 0 0 0 0;
        margin: 1px 1px;
    }
-<<<<<<< HEAD
-
    .navbar.navbar-inverse.nav2{
             background-color:#fff;
             height:80px;
@@ -96,13 +94,10 @@
             
             background-color: #fff;
         }
-=======
    .hr{
        margin: 8px auto;
        padding-right: 7px;
    }
-   
->>>>>>> 11ec57aaf858652128c3282cb8359ffd3a2c2889
     </style>
 
 </head>
